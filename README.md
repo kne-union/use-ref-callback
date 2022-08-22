@@ -2,6 +2,11 @@
 # use-ref-callback
 
 
+### 描述
+
+这是一个React hooks，它内部使用ref去保证callback是最新的（你也可以通过参数指定callback为初始值），而不引起组件的不必要渲染
+
+
 ### 安装
 
 ```shell

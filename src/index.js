@@ -6,7 +6,7 @@ const useRefCallback = (callback, keepInit = false) => {
     callbackRef.current = callback;
   }
   return useCallback((...args) => {
-    return callbackRef.current(...args);
+    return callbackRef.current && callbackRef.current(...args);
   }, []);
 };
 
