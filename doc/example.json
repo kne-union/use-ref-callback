@@ -27,6 +27,33 @@
           "packageName": "antd/lib/message"
         }
       ]
+    },
+    {
+      "title": "这里填写示例标题",
+      "description": "这里填写示例说明",
+      "code": "./inner.js",
+      "scope": [
+        {
+          "name": "_useRefCallback",
+          "packageName": "@kne/use-ref-callback"
+        },
+        {
+          "name": "button",
+          "packageName": "antd/lib/button"
+        },
+        {
+          "name": "space",
+          "packageName": "antd/lib/space"
+        },
+        {
+          "name": "_Switch",
+          "packageName": "antd/lib/switch"
+        },
+        {
+          "name": "_message",
+          "packageName": "antd/lib/message"
+        }
+      ]
     }
   ]
 }
