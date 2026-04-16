@@ -1,18 +1,14 @@
-
 # use-ref-callback
-
 
 ### 描述
 
 这是一个React hooks，它内部使用ref去保证callback是最新的（你也可以通过参数指定callback为初始值），而不引起组件的不必要渲染
-
 
 ### 安装
 
 ```shell
 npm i --save @kne/use-ref-callback
 ```
-
 
 ### 概述
 
@@ -137,7 +133,6 @@ render(<Example />);
 
 ```
 
-
 ### API
 
 ### useRefCallback(callback,keepInit)
@@ -149,4 +144,3 @@ render(<Example />);
 
 返回值: function
 包装后的方法，将会通过ref自动赋值为最新的callback
-
