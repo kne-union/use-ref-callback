@@ -1,1 +1,59 @@
-{"name":"example","version":"0.0.0","private":true,"scripts":{"start":"craco start","build":"craco build","test":"craco test"},"dependencies":{"@kne/example-driver":"^0.1.0","@kne/use-ref-callback":"file:..","antd":"^4.22.6","react":"file:../node_modules/react","react-dom":"file:../node_modules/react-dom","use-ref-callback":"file:.."},"eslintConfig":{"extends":"react-app"},"browserslist":[">0.2%","not dead","not ie <= 11","not op_mini all"],"devDependencies":{"@craco/craco":"^6.4.5","@kne/md-doc":"^0.1.6","chokidar":"^3.5.3","cross-spawn-promise":"^0.10.2","fs-extra":"^10.1.0","node-sass":"^7.0.1","react-scripts":"^5.0.1"},"syntax":{"esmodules":true}}
+{
+  "name": "@kne-components/use-ref-callback",
+  "version": "0.1.0",
+  "dependencies": {
+    "@kne/current-lib_use-ref-callback": "file:..",
+    "react": "file:../node_modules/react",
+    "react-dom": "file:../node_modules/react-dom"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "init": "npm install --legacy-peer-deps",
+    "start": "cross-env PORT=3020 MODULES_DEV_PUBLIC_URL=/ craco start",
+    "build": "cross-env COMPONENTS_NAME=use-ref-callback MODULES_DEV_PUBLIC_URL=/use-ref-callback  craco build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kne-union/use-ref-callback.git"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@kne/axios-fetch": "^1.0.7",
+    "@kne/craco-module-federation": "^1.1.2",
+    "@kne/modules-dev": "^2.1.19",
+    "@kne/react-fetch": "^1.4.2",
+    "@kne/remote-loader": "^1.2.3",
+    "antd": "^6.3.3",
+    "axios": "^1.6.7",
+    "classnames": "^2.5.1",
+    "cross-env": "^7.0.3",
+    "http-proxy-middleware": "^2.0.6",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0",
+    "lodash": "^4.17.21",
+    "sass": "^1.75.0",
+    "prettier": "^2.8.8",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "^5.0.1"
+  }
+}
