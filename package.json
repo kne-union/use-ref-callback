@@ -5,6 +5,17 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "hooks",
+    "ref",
+    "callback"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kne-union/use-ref-callback.git"
+  },
   "scripts": {
     "init": "husky && npm run init-example",
     "start": "run-p start:lib start:md start:example",
