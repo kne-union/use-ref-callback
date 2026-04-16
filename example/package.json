@@ -1,6 +1,6 @@
 {
   "name": "@kne-components/use-ref-callback",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "dependencies": {
     "@kne/current-lib_use-ref-callback": "file:..",
     "react": "file:../node_modules/react",
